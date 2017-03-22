@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM armhf/alpine:3.5
 
 ENV INFLUXDB_VERSION 1.1.4
 RUN apk add --no-cache --virtual .build-deps wget gnupg tar ca-certificates && \
